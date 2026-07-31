@@ -1,0 +1,6 @@
+.env
+.venv/
+vectorstore/
+data/sharepoint_json/
+__pycache__/
+*.pyc

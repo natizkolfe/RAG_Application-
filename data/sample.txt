@@ -1,0 +1,10 @@
+Retrieval-Augmented Generation (RAG) combines information retrieval with large language models.
+
+A typical RAG pipeline:
+1. Load documents from a source (files, database, or API).
+2. Split documents into smaller chunks.
+3. Embed chunks into a vector database.
+4. At query time, retrieve the most relevant chunks.
+5. Pass retrieved context to an LLM to generate a grounded answer.
+
+RAG reduces hallucinations by grounding responses in your own data.
